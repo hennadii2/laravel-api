@@ -1,0 +1,159 @@
+
+/*----------------------------------*/
+/* Push Sidebar Menu Css ---*/
+/*----------------------------------*/
+.pushmenu__right { /*this is the nav*/
+    background: #fff;
+    font-family: Arial, Helvetics, sans-serif;
+    width: 470px;
+    height: 100%;
+    top: 0;
+    z-index: 1000;
+    position: fixed;
+
+}
+
+.pushmenu-push {
+    overflow: hidden !important;
+    position: relative;
+	height:100% !important;
+
+}
+
+
+/*==================================*/
+/* Left Sidebar Menu Css --------*/
+/*==================================*/
+
+.pushmenu-right {
+    right: -470px;
+   -webkit-transition: opacity 0.5s linear, right 0.5s ease-out;
+     -moz-transition: opacity 0.5s linear, right 0.5s ease-out;
+       -o-transition: opacity 0.5s linear, right 0.5s ease-out;
+          transition: opacity 0.5s linear, right 0.5s ease-out;
+
+}
+
+    .pushmenu-right.pushmenu-open {
+        right: 0;
+			-webkit-box-shadow: -450px 1px 29px 4000px rgba(0,0,0,0.45);
+-moz-box-shadow: -450px 1px 29px 4000px rgba(0,0,0,0.45);
+box-shadow: -450px 1px 29px 4000px rgba(0,0,0,0.45);
+    height: 100%;
+
+    }
+    .pushmenu-push-left {
+        left:0;
+    }
+
+.pushmenu-push-toleft {
+    left: -470px;
+}
+
+/*Transition*/
+.pushmenu, .pushmenu-push {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+
+/*==================================*/
+/* Left Sidebar Menu Css --------*/
+/*==================================*/
+.pushmenu-left {
+    left: -470px;
+    -webkit-transition: opacity 0.5s linear, left 0.5s ease-out;
+     -moz-transition: opacity 0.5s linear, left 0.5s ease-out;
+       -o-transition: opacity 0.5s linear, left 0.5s ease-out;
+          transition: opacity 0.5s linear, left 0.5s ease-out;
+}
+
+    .pushmenu-left.pushmenu-open {
+        left: 0;
+    }
+
+    .pushmenu-push-right {
+        right:0;
+    }
+
+.pushmenu-push-toright {
+    right: -470px;
+}
+
+
+/**************************/
+.side_menu_header{background-color:#22aa00 !important; padding:23px 30px;}
+.side_menu_header .head_title{ color:#fff !important; font-size:24px; font-family: 'proximanova_semibold';}
+.side_menu_header .menu-close i{font-size:20px;}
+.cart_box_inner{padding:20px 29px; color:#222222 !important; font-family: 'proximanova_regular';}
+.coun_text{font-size:16px; border-bottom:1px solid #ddd; padding-bottom:17px; margin-bottom:20px;}
+
+
+/***left-side menu********/
+.pushmenu__left { /*this is the nav*/
+    background: #fff;
+    font-family: Arial, Helvetics, sans-serif;
+    width: 350px;
+    height: 100%;
+    top: 0;
+    z-index: 1000;
+    position: fixed;
+
+}
+
+.pushmenu-left {
+    left: -350px;
+}
+
+    .pushmenu-left.pushmenu-open {
+        left: 0;
+			-webkit-box-shadow: -450px 1px 29px 4000px rgba(0,0,0,0.45);
+-moz-box-shadow: -450px 1px 29px 4000px rgba(0,0,0,0.45);
+box-shadow: -450px 1px 29px 4000px rgba(0,0,0,0.45);
+    height: 100%;
+
+    }
+    .pushmenu-push-right {
+        right:0;
+    }
+
+.pushmenu-push-toright {
+    right: -350px;
+}
+
+
+/*==================================*/
+/* Left Sidebar Menu Css --------*/
+/*==================================*/
+
+/**left side-menu****************/
+
+  @media (max-width: 480px) {
+.pushmenu__right ,.pushmenu__left  { /*this is the nav*/
+    width: 320px;
+
+}
+
+
+
+.pushmenu-right {
+    right: -320px;
+}
+
+
+
+.pushmenu-push-toleft {
+    left: -320px;
+}
+
+.pushmenu-left {
+    left: -320px;
+}
+
+.pushmenu-push-toright {
+    right: -320px;
+}
+  }
+

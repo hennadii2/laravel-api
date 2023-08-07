@@ -1,0 +1,121 @@
+﻿
+
+
+section:last-of-type {margin-right:0 !important;}
+.packageItem{position:relative; display:inline-block; float:left; width:210px; padding:10px 10px 190px 10px; margin:0 10px 10px 0; text-align:left; border-radius:5px; border:1px solid #000000; }
+.packageItem:nth-of-type(4n+4){margin-right:0;}
+.packageItem h1{text-transform:uppercase; font-size:16px; line-height:100%; padding:0px; margin:0px 0px 5px 0px; width:213px; text-align:left; word-break:hyphenate;}
+.packageItem p{text-align:right;}
+.packageBenefits {margin:15px 0px 0px 15px; padding:0px;}
+.packageBenefits li{font-size:14px;}
+.packageBenefits li a:link, .packageBenefits li a:visited {color:#444444; text-decoration:none;}
+.packageBenefits li a:hover, .packageBenefits li a:active {color:#00457c; text-decoration:underline;}
+.pricingSet {position:absolute; bottom:10px; left:10px; width:212px;}
+.packageDisclosure {position:relative; top:-10px; font-size:10px; padding:0px; margin:0px; text-align:center; width:100%;}
+
+.halfCol {width:50% !important;}
+.halfCol div{width:50% !important;}
+.fullCol {width:100% !important;}
+.SEcolumn1 { width:49%; box-sizing:border-box; float:left; padding-right:2%;}
+.SEcolumn2 { width:50%; box-sizing:border-box; float:left;}
+.longer {min-height:380px;}
+
+.SEcontent {position:relative; width:100%; text-align:center; box-sizing:border-box;}
+.SEcontent:after {clear:both; display:table; content:"";}
+.SEcontent hr{padding:0px; margin:0px;}
+.SEcontent table{width:100%; padding:5px; background:#e4e4e4; color:#444444;}
+.SEcontent table td p{font-size:12px; line-height:14px; padding:0px; margin:0px 0px 0px 5px;}
+.SEcontent table td input{width:100%; font-size:12px; border:1px solid #444444; background:#FFF; color:#444444; padding:3px; height:15px;}
+.SEcontent table td select{width:100%; font-size:12px; border:1px solid #444444; background:#FFF; color:#444444; padding:3px;}
+.SEcontent table td img{margin-left:10px;}
+.memInfo .SEcolumn1 {min-height:600px;}
+
+.SEsection {position:relative; border:1px solid #444444; border-radius:5px; margin-bottom:10px;}
+.SEsection h1{text-transform:uppercase; font-size:16px;  line-height:100%; padding:10px; margin:0px; text-align:left;}
+.SEsection hr{padding:0px; margin:0px 10px;}
+.SEsection p{margin: 10px; text-align:justify;}
+
+.SEsection table{width:100%; background:#e4e4e4; color:#444444;}
+.SEsection table th{font-weight:normal; text-align:left;}
+.SEsection table td {font-size:12px; line-height:14px; margin:0px 0px 0px 5px; text-align:left; box-sizing:border-box; padding:0 5px 0 0; display:table-cell; vertical-align:bottom;}
+.SEsection table td input, .SEsection table td select{width:100%; height:22px; vertical-align:middle; font-size:12px; border:1px solid #444444; background:#FFF; color:#444444; box-sizing:border-box;}
+
+.SEsection table td .PrintCard input{width:22px; background-color:#e4e4e4 }
+.SEsection table td .PrintCard label{font-size:10px; }
+
+.SEsection table table{width:100%; padding:10px; box-sizing:border-box;}
+.SEsection table td a:link, .SEsection table td a:visited {color:#444444; text-decoration:none;}
+.SEsection table td a:hover, .SEsection table td a:active {color:#00457c; text-decoration:underline;}
+
+.billing1, .billing2 {padding:0 !important;}
+
+.sameAs {position:absolute; font-size:12px; line-height:14px; padding:0px; margin:0px; top:0px; left:80px;}
+.sameAs input{position:relative; top:2px; margin:0px; padding:0px;}
+.creditCard {width:100%; border:1px solid #444444; border-radius:5px; margin:10px 0px;}
+.eCheck {width:100%; max-width:450px; border:1px solid #444444; border-radius:5px; margin:10px 0px; display:none;}
+.eCheck td img {margin:10px 0px 0px 70px;}
+.paypal {width:100%; border:1px solid #444444; border-radius:5px; margin:10px 0px; display:none;}
+.bordertop {border-top:1px solid #444444;}
+
+.SEdependents {min-height:485px;}
+.SEthankyou p{margin:0px 10px;}
+
+.SEnav {position:relative; width:100%; padding:10px 0px;}
+.SErequired {position:absolute; top:-25px; width:100%; font-size:10px; text-align:right;}
+.SEnav div{font-size:14px; height:30px; line-height:30px;}
+
+.SEbuttonNav {position:relative; clear:both; height:40px; margin: 10px 0px 20px; padding-bottom:0px; width:100%; height:40px;}
+.SEback {position:absolute; top:0px; left:0px; border-radius:5px; padding:10px; background-color:#444444; color:#FFF; font-weight:bold; text-transform:uppercase; text-align:center; border:1px solid #444444;}
+.SEback:hover {background-color:#6f6f6f; border:1px solid #444444; cursor:pointer;}
+.SEcontinue {position:absolute; right:0px; border-radius:5px; padding:10px; background-color:#444444; color:#FFF; font-weight:bold; text-transform:uppercase; text-align:center; border:1px solid #444444;}
+.SEcontinue:hover {background-color:#6f6f6f; border:1px solid #444444; cursor:pointer;}
+.SEpurchase {position:absolute; right:0px; border-radius:5px; padding:10px; background-color:#5f1718; color:#FFF; font-weight:bold; text-transform:uppercase; text-align:center; border:1px solid #5f1718;}
+.SEpurchase:hover {background-color:#265f17; border:1px solid #265f17; cursor:pointer;}
+
+.SEselectPackage {font-family: 'Gotham Black'; font-size:14px; border-radius:5px; padding:10px; background-color:#444444; color:#FFF; font-weight:normal; text-transform:uppercase; text-align:center; border:1px solid #444444; width:100%;}
+.SEselectPackage:hover {background-color:#6f6f6f; border:1px solid #444444; cursor:pointer;}
+
+.padbottom {padding-bottom:10px;}
+.centered {text-align:center;}
+.vertmid {vertical-align:middle;}
+.strong {font-weight:bold;}
+.negative {background-color:#444444; color:#fff;}
+.SEgrey {color:#848484;}
+.white {color:#fff;}
+.req {color:red;}
+.chargenote {font-size:13px; font-weight:bold;}
+.chargeagreement { font-size:13px; text-align:justify; }
+
+.dependentSection {display:none;}
+.dependentSection h1 {padding:10px 0 10px 0px;}
+.dependentInfo table {box-sizing:border-box; width:100%; padding:10px !important;}
+.dependentNumber {padding-top:10px !important;}
+.displayNone {display:none !important;}
+
+.paymentError { position: absolute; top: 485px; left: 550px; background-color: #f5b8bf; border: 1px solid #ff0000; display: none; padding: 10px;  border-radius:5px}
+.paymentError h3 {color:#ff0000; font-size: 18px; margin:0px; padding:0px; line-height:100%; }
+.paymentError p {color:#ff0000; font-size: 12px; }
+
+.formnumber {position:relative; text-align:left; font-size:12px; text-transform:uppercase; padding-bottom:20px;}
+
+.FormErrors {position: absolute; right:10%; border:1px red solid; background:#fff; z-index:999; text-align:left; font-family:'Gotham Book'; font-size:.8em; color:red; border-radius:5px; padding-right: 10px;}
+.FormErrors ul {list-style-type:none; padding:0; margin-left:1em;}
+.FormErrors li {background:url('/images/x.png') no-repeat 0 0px; padding-left:21px; margin:3px 0px; line-height:1.4em;}
+
+.tabular {position:relative; margin-top:0px; width:100%; box-sizing:border-box; padding:5px 5px 10px 10px; overflow:hidden; background:#e4e4e4; color:#444444;}
+.tabular div {padding:5px 10px 0 0; font-size:12px; width:25%; min-height:50px; float:left; text-align:left; box-sizing:border-box;}
+.tabular div span, .tabular div label {min-height:15px; display:inline-block; padding-top:0px;}
+.tabular div label {position:relative; box-sizing:border-box; vertical-align:bottom;}
+.tabular p{font-size:12px; line-height:14px; padding:0px; margin:0px 0px 0px 5px;}
+.tabular input, .tabular select{width:100%; font-size:12px; border:1px solid #444444; background:#FFF; color:#444444; padding:5px; height:26px; vertical-align:middle; box-sizing:border-box;}
+.tabular img{margin-left:10px;}
+
+.fa-question-circle-o {font-size:16px !important;}
+.fa-question-circle-o:hover:before {content:"\f059" !important;}
+
+.tooltip {position:relative; display:inline-block; margin-left:5px;}
+.tooltip .tooltiptext {visibility:hidden; width:175px; background-color:black; color:#fff; font-family:'Gotham Book'; font-size:12px; text-align:left; border-radius:5px; padding:5px; position:absolute; top:-17px; right:100%; z-index:1;}
+.tooltip:hover .tooltiptext {visibility:visible;}
+
+.tabular.padded {padding:1em;}
+.orderDone p{margin:0 0 1em 0;}

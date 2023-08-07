@@ -1,0 +1,23 @@
+.message {
+padding: 5px;
+position: relative;
+padding-right: 15px;
+border: dotted 1px !important;
+font-size: small;
+color: white;
+}
+.message.valid {
+background: #56B356;
+}
+ .message.invalid {
+background: #CC0033;
+}
+.close {
+position: absolute;
+right: 3px;
+top: 0px;
+font-weight: bold;
+font-size: 10px;
+padding: 5px;
+cursor: pointer;
+}

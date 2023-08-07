@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {padding:0; margin:0;}
+body {padding:20px; background-color:#CCC; font-family: 'Gotham Book', Arial, Helvetica, sans-serif; font-size:1em; color:#444444; margin:0 auto;}
+h1{font-family: 'Gotham Black'; font-weight:normal; font-size:1em;}
+h2{font-family: 'Gotham Medium'; font-weight:normal; font-size:.8em;}
+h3{font-family: 'Gotham Book'; font-weight:normal; font-size:.8em;}
+select {font-family: 'Gotham Book';}
+input {font-family: 'Gotham Book';}
+hr{padding:0; margin:0;}
+
+.pagecontainer {margin:0 auto; display:block; width:100%; max-width:1024px;}
+.SEwindow {position:relative; width:100%; padding:1em 1em 3em 1em; box-sizing:border-box; background-color:#fff; border-radius:5px; -moz-box-shadow: 0 2px 2px #000; -webkit-box-shadow: 0 2px 2px #000; box-shadow: 0 2px 2px #000; 
+-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=0, Direction=135, Color='#000000')";}
+
+.textleft {text-align:left !important;}
+.textright {text-align:right !important;}
+.textcenter {text-align:center !important;}
+
+/*  header */
+.SElogo {max-width:100%;}
+.SEdmpa {position:relative; left:2%;  font-size:16px; width:96%; text-align:right;}
+.SEheader {position:relative; height:4em; width:100%; margin:1em 0; color:#444;}
+.SEheader h1{position:absolute; bottom:0; width:100%; text-align:center; text-transform:uppercase; color:#00457c; margin:0; padding:0;}
+
+.SEstep1 {position:absolute; left:27%; top:0; height:24px; width:24px; border:3px solid #b6b6b6; border-radius:5px; background:#fff; z-index:2;}
+.SEstep2 {position:absolute; left:48%; top:0; height:24px; width:24px; border:3px solid #b6b6b6; border-radius:5px; background:#fff; z-index:2;}
+.SEstep3 {position:absolute; left:68%; top:0; height:24px; width:24px; border:3px solid #b6b6b6; border-radius:5px; background:#fff; z-index:2;}
+.SEstep4 {position:absolute; left:80%; top:0; height:24px; width:24px; border:3px solid #b6b6b6; border-radius:5px; background:#fff; z-index:2;}
+.SEline {position:absolute; left:27%; top:.8em; width:42%; height:3px; background:#b6b6b6; z-index:1;}
+
+
+.SEcomplete {background-image:url('../images/icon_checkmark_green.png'); background-repeat:no-repeat; background-position:3px 3px;}
+.SEactive {background:#fff;}
+/*  end header  */
+
+.headerRSS {position:relative; width:96%; left:2%;}
+
+.SEcontent {position:relative; padding:0;}
+
+.SEpackage {position:relative; border:1px solid #888; border-radius:5px; width:100%; box-sizing:border-box; margin:1em 0em 1em 0em; padding:1em; min-height:6em; background-color:#e7e7e7;}
+.SEpackage h1{margin:0; text-transform:uppercase; font-size:1.1em;}
+.term {position:absolute; top:.8em; right:7em; border:1px solid #444444;}
+.price {position:absolute; top:.5em; right:1em; font-size:1.1em; padding:0; margin:0;}
+.enrollmentFee { position: absolute; top:2.4em; right: 1em; font-size:14px;}
+.SEpackage ul{list-style-type:none; margin:.5em 0 0 0; padding:0 110px 0 1em; width:100%; display:table; box-sizing:border-box;}
+.SEpackage ul li:before {content: "+"; position:absolute; left:0px;}
+.SEpackage li{display:inline-block; margin:.5em 0; width:25%; padding:0 1em; position:relative; vertical-align:text-top; box-sizing:border-box;}
+.SEpackage li a:link, .SEpackage li a:visited{color:#444444; text-decoration:none;}
+.SEpackage li a:active, .SEpackage li a:hover{color:#00457c; text-decoration:underline;}
+.SEselectPackage {position:absolute; top:50%; right:1em; font-family: 'Gotham Black'; font-size:.9em; border-radius:10px; padding:.5em 1em !important; background-color:#444444 !important; color:#FFF !important; font-weight:normal; text-transform:uppercase; text-align:center; border:1px solid #444444; z-index:99;}
+.SEselectPackage:hover {background-color:#222222 !important; color:#FFF !important; border:1px solid #444444; cursor:pointer;}
+.packageDisclosure {font-size:13px; text-align:right; width:100%; display:block}
+
+
+/*  nav section  */
+.SEnav {position:relative; width:100%; padding:10px 0;}
+.SErequired {position:absolute; top:-25px; width:100%; font-size:10px; text-align:right;}
+.SEnav div{font-size:14px; height:30px; line-height:30px;}
+
+.SEbuttonNav {position:relative; clear:both; height:40px; margin: 10px 0 20px; padding-bottom:0; width:100%;}
+.SEback {position:absolute; top:0; left:0; border-radius:5px; padding:10px; background-color:#444444; color:#FFF; font-weight:bold; text-transform:uppercase; text-align:center; border:1px solid #444444;}
+.SEback:hover {background-color:#6f6f6f; border:1px solid #444444;}
+.SEcontinue {position:absolute; right:0; border-radius:5px; padding:10px; background-color:#444444; color:#FFF; font-weight:bold; text-transform:uppercase; text-align:center; border:1px solid #444444;}
+.SEcontinue:hover {background-color:#6f6f6f; border:1px solid #444444;}
+.SEpurchase {position:absolute; right:0; border-radius:5px; padding:10px; background-color:#5f1718; color:#FFF; font-weight:bold; text-transform:uppercase; text-align:center; border:1px solid #5f1718;}
+.SEpurchase:hover {background-color:#265f17; border:1px solid #265f17;}
+/*  end nav section  */
+
+
+/*  footer  */
+.formnumber {position:relative; width:100%; box-sizing:border-box; font-size:.8em; text-transform:uppercase;}
+.SElogo_small {position:absolute; bottom:1em; right:1em;}
+.SEfooter {position:relative;}
+.SEfooter a:link, .SEfooter a:visited {color:#444444; text-decoration:none;}
+.SEfooter table td a:hover, .SEfooter a:active {color:#00457c; text-decoration:underline;}
+.disclosures {position:relative; width:100%; box-sizing:border-box; padding:1em;}
+/*  end footer  */
+
+@media only screen and (max-width: 725px) {		
+	.SEpackage li {width:33%;}
+}
+@media only screen and (max-width: 600px) {		
+    body {padding:0px;}
+    .SEwindow {border-radius:0; box-shadow:none;}
+	.SEpackage h1 {width:100%; margin:0 0 10px 0;}
+    .term {position:relative; top:initial; right:initial; margin:0 0 0 10px; float:right;}
+    .price {position:relative; top:initial; right:initial; margin:0; float:right; width:initial; width:initial !important;}
+    .enrollmentFee {position:relative; top:initial; right:initial; text-align:right; margin:11px 0;}
+    .enrollmentFee span {display:inline-block; text-align:right;}
+    .SEpackage li {width:50%;}
+    .packageDisclosure {margin-bottom:20px;}
+    .SEselectPackage {position:relative; top:initial; right:initial; width:100%;}
+}

@@ -1,0 +1,107 @@
+/* Layout helpers
+----------------------------------*/
+.ui-helper-hidden {
+	display: none;
+}
+.ui-helper-hidden-accessible {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+.ui-helper-reset {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	line-height: 1.3;
+	text-decoration: none;
+	font-size: 100%;
+	list-style: none;
+}
+.ui-helper-clearfix:before, .ui-helper-clearfix:after {
+	content: "";
+	display: table;
+	border-collapse: collapse;
+}
+.ui-helper-clearfix:after {
+	clear: both;
+}
+.ui-helper-clearfix {
+	min-height: 0; /* support: IE7 */
+}
+.ui-helper-zfix {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	position: absolute;
+	opacity: 0;
+	filter: Alpha(Opacity=0); /* support: IE8 */
+}
+.ui-front {
+	z-index: 100;
+}
+.ui-tabs {
+	position: relative;/* position: relative prevents IE scroll bug (element with position: relative inside container with overflow: auto appear as "fixed") */
+}
+.ui-tabs .ui-tabs-nav {
+	margin: 0;
+}
+.ui-tabs .ui-tabs-nav li {
+	list-style: none;
+	float: left;
+	position: relative;
+	top: 0;
+	border-bottom-width: 0;
+	padding: 0;
+	white-space: nowrap;
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 0.6px;
+	 color:#404040 !important;
+	border: none;
+	border-bottom: 3px solid transparent;
+	margin-right:40px;
+}
+.ui-tabs .ui-tabs-nav li a{ color:#404040 !important}
+.ui-tabs .ui-tabs-nav li:last-child {
+	margin-right: 0px;
+}
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+	float: left;
+	padding: 10px 0px 18px 0px;
+	text-decoration: none;
+	outline: none;
+	
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active {
+	margin-bottom: -3px;
+	padding-bottom:0px;
+	background: #fff;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 3px solid #22aa00;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor, .ui-tabs .ui-tabs-nav li.ui-state-disabled .ui-tabs-anchor, .ui-tabs .ui-tabs-nav li.ui-tabs-loading .ui-tabs-anchor {
+	cursor: text;
+}
+.ui-tab-content {
+	border-top: 3px solid #f4f4f4;
+	margin-top: -1px;
+}
+.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+	cursor: pointer;
+}
+.ui-tabs .ui-tabs-panel {
+	display: block;
+	border-width: 0;
+	padding:30px 0px;
+	background: none;
+}
+

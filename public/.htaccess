@@ -1,0 +1,16 @@
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+
+
+
+RewriteCond %{REQUEST_URI} !(\.css|\.js|\.png|\.jpg|\.gif|\.eot|\.ttf|\.svg|\.woff|\.ttf|robots\.txt)$ [NC]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.php [L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !^/public/
+RewriteRule ^(css|js|images|admin|customer|fonts|assets|pages|zoom|super_admin|home)/(.*)$ public/$1/$2 [L,NC]

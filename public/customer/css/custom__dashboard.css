@@ -1,0 +1,28 @@
+
+.table__main__title{ text-transform:uppercase; font-size:18px; color:#222222; padding:15px 20px; border-bottom:1px solid #22aa00; font-weight:600; letter-spacing:0.3px; font-family: 'proxima_nova_rgbold'}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 14px 0px;
+	border-top: none;
+	border-bottom: 1px solid #dddddd;
+}
+.v_a_top.table>tbody>tr>td{vertical-align:top !important;}
+
+.table>tbody>tr:last-child td{ border-bottom:none;}
+th.th__head{border-bottom:3px solid #f1f1f1 !important; font-family: 'proximanova_regular'; font-weight:bold; font-size:16px !important; color:#222222 !important;}
+td.thumb__img{width:32px !important; max-width:32px !important;}
+.product__img{height:35px; width:35px; border:1px solid #ddd; float:left; margin-right:5px;}
+.customer_thumb__img{height:30px; width:30px; border:1px solid #ddd; border-radius:50%;}
+.brand__name{ color:#808080 !important; font-size:15px; font-family: 'proxima_nova_rgbold';}
+.f_12{ font-size:12px !important; font-family: 'proximanova_regular'; font-weight:bold; letter-spacing:0.6px;}
+.v_a_top.table>tbody>tr>td{vertical-align:top !important;}
+.v_a_top .pro____title a{top: 5px !important; position: relative;}
+.v_a_top .brand__name{top: 5px !important; position: relative;}
+
+/***********/
+.order__list{ margin:0px; padding:0px;}
+.order__list ul{ margin:0px; padding:0px; list-style:none;}
+.order__list ul li{ margin:0px 0px 5px 0px; padding:0px; list-style:none; list-style-type:none;}
+.order__list ul li .pro____title{ font-family: 'proximanova_regular'; font-weight:normal; font-size:14px !important; color:#222222 !important; line-height:14px !important;}
+.order__list ul li .pro____title:hover{ color:#22aa00 !important;}
+
+
